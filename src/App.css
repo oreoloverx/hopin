@@ -54,6 +54,11 @@ html {
 .social {
   padding: 5px 5px;
 }
+.caname{
+  color: #000;
+  font-size: 18px;
+  text-align: center;
+}
 .button {
   margin-top: 20px;
   padding: 20px 30px;

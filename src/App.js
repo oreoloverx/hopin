@@ -76,7 +76,7 @@ function App() {
           <div className="logoBlock">
           <img alt="elon" className="elon" src={elon}/>
           <h2 className="heading2">HAND OF POLITICALY<br/> INSANE NONSENSE</h2>
-          <p>ca: {ca}</p>
+          <p className="caname">ca: {ca}</p>
           </div>
           <div className="dogSocBtn">
             <img alt="dog" className="mainDog" src={mainDog}/>
