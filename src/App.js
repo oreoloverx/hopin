@@ -30,7 +30,8 @@ import './App.css';
 
 function App() {
   
-  const ticker = "HOPIN"
+  const ticker = "HOPIN";
+  const ca = "tba";
 
   const popupContent = [
     {
@@ -75,11 +76,12 @@ function App() {
           <div className="logoBlock">
           <img alt="elon" className="elon" src={elon}/>
           <h2 className="heading2">HAND OF POLITICALY<br/> INSANE NONSENSE</h2>
+          <p>ca: {ca}</p>
           </div>
           <div className="dogSocBtn">
             <img alt="dog" className="mainDog" src={mainDog}/>
             <div className="buttonBlock">
-              <a href="https://raydium.io/" target="_blank" rel="no-referrer"><button className="button">BUY ${ticker}</button></a>
+              <a href="https://raydium.io/" target="_blank" rel="noreferrer"><button className="button">BUY ${ticker}</button></a>
             </div>
             <div className="socialBlock">
               <a href="https://t.me/printconfidential" target="_blank" rel="noreferrer"><img alt="telegram" className="social" src={tg}/></a>
