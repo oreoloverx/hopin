@@ -1,0 +1,192 @@
+*{
+}
+h1,h2,h3,h4 {
+  font-family: "Koulen" , sans-serif;
+  font-weight: 400px;
+}
+p {
+  font-family: "Arial", sans-serif;
+}
+.heading {
+  color: #fff;
+  text-align: center;
+  font-size: 52px;
+}
+.heading2 {
+  color: #fff;
+  text-align: center;
+  font-size: 52px;
+  margin-top: 10px;
+  line-height: 50px;
+}
+.App {
+  background-color: #000;
+}
+html {
+  background-color: #000;
+}
+.layout {
+  margin: 0 140px;
+  text-align: center;
+}
+.logo {
+  margin: 50px 0px 25px 0px;
+}
+.dogSocBtn {
+  background-image: url("./assets/bg.png");
+  background-size: contain;
+}
+.mainDog {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  max-width: 700px;
+  animation: shake 2s ease-in-out infinite;
+  transform-origin: center;
+}
+.elon {
+   max-width: 200px;
+   margin-top: 20px;
+}
+.boden {
+  max-width: 500px;
+  margin-left: 120px;
+}
+.social {
+  padding: 5px 5px;
+}
+.button {
+  margin-top: 20px;
+  padding: 20px 30px;
+  background-color:#000;
+  border: 3px solid #fff;
+  line-height: 42px;
+  border-radius: 10px;
+  min-width: 250px;
+  color: #fff;
+  font-family: "Koulen" , sans-serif;
+  font-size:42px;
+  margin-bottom: 50px;
+}
+.section3,.section4 {
+  display: block;
+  color:#fff;
+  text-align: center;
+}
+.runningImg {
+  max-width: 300px;
+  margin: 10px 10px;
+  border: 5px solid #fff;
+}
+
+.runningBlockInside {
+  display: flex;
+  animation: runningAnimation 8s linear infinite;
+}
+.runningBlockInside2 {
+  display: flex;
+  animation: runningAnimation2 8s linear infinite;
+}
+
+.runningBlock {
+  overflow: hidden;
+}
+
+@keyframes runningAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+.runningBlock2 {
+  overflow: hidden;
+}
+
+@keyframes runningAnimation2 {
+  0% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes shake {
+  0% { transform: translate(0, 0); }
+  5% { transform: translate(-5px, -5px); }
+  10% { transform: translate(5px, 5px); }
+  15% { transform: translate(-5px, 5px); }
+  20% { transform: translate(5px, -5px); }
+  25% { transform: translate(-5px, -5px); }
+  30% { transform: translate(5px, 5px); }
+  35% { transform: translate(-5px, 5px); }
+  40% { transform: translate(5px, -5px); }
+  45% { transform: translate(-5px, -5px); }
+  50% { transform: translate(0, 0); }
+  55% { transform: translate(-5px, -5px); }
+  60% { transform: translate(5px, 5px); }
+  65% { transform: translate(-5px, 5px); }
+  70% { transform: translate(5px, -5px); }
+  75% { transform: translate(-5px, -5px); }
+  80% { transform: translate(5px, 5px); }
+  85% { transform: translate(-5px, 5px); }
+  90% { transform: translate(5px, -5px); }
+  95% { transform: translate(-5px, -5px); }
+  100% { transform: translate(0, 0); }
+}
+
+.runningImgBlock {
+  flex-shrink: 0;
+}
+
+.section4 {
+}
+.memeBlockMob {
+  display: none;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+.memeBlock img  {
+  text-align: center;
+  max-width: 100%;
+}
+.copyText {
+  color: #838383;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1450px) and (min-width: 1200px) {
+  
+  .img1 {
+    max-width: 407px;
+    height: 345px;
+  }
+  .img2 {
+    max-width: 613px;
+    height: 345px;
+  }
+  .img3 {
+    width: 495px;
+    height: 294px;
+  }
+  .img4 {
+    width: 524px;
+    height: 294px;
+  }
+  .img5 {
+    width: 589px;
+    height: 654px;
+  }
+}
+@media screen and (max-width: 920px) {
+  .memeBlockMob{
+    display: block;
+  }
+  .memeBlock{
+    display: none;
+  }
+}
