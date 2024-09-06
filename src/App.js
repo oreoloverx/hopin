@@ -84,8 +84,8 @@ function App() {
               <a href="https://raydium.io/" target="_blank" rel="noreferrer"><button className="button">BUY ${ticker}</button></a>
             </div>
             <div className="socialBlock">
-              <a href="https://t.me/printconfidential" target="_blank" rel="noreferrer"><img alt="telegram" className="social" src={tg}/></a>
-              <a href="https://twitter.com/solconfidential" target="_blank" rel="noreferrer"><img alt="x" className="social" src={tw}/></a>
+              <a href="https://t.me/DEGENSHOPIN" target="_blank" rel="noreferrer"><img alt="telegram" className="social" src={tg}/></a>
+              <a href="https://twitter.com/DEGENSHOPIN" target="_blank" rel="noreferrer"><img alt="x" className="social" src={tw}/></a>
               <a href="https://dexscreener.com/solana/" target="_blank" rel="noreferrer"><img alt="dexscreener" className="social" src={dex}/></a>
             </div>
           </div>
